@@ -8,7 +8,7 @@ store = sparqlstore.SPARQLUpdateStore()
 store.open((STARDOG_ENDPOINT, STARDOG_ENDPOINT))
 store.setCredentials(STARDOG_USERNAME, STARDOG_PASSWORD)
 
-mfg_namespace = Namespace('http://www.food.com/ontology#')
+mfg_namespace = Namespace('http://www.food-groups.com/ontology#')
 
 store.bind('mfg', mfg_namespace)
 
