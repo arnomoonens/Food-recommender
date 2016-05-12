@@ -1,0 +1,131 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+
+@prefix ont: <http://www.food-groups.com/ontology#>.
+
+<#IngredientTriplesMap>
+    rr:logicalTable [ rr:tableName "ingredient" ];
+    rr:subjectMap [
+        rr:template "http://data.group1.com/ontology/Ingredient/{name}";
+        rr:class ont:Ingredient;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:hasIngredientName;
+        rr:objectMap [
+            rr:column "name";
+            rr:datatype xsd:string;
+        ];
+    ].
+
+<#IngredientQuantityTriplesMap>
+    rr:logicalTable [
+        rr:sqlQuery "SELECT * FROM recipe_ingredient q, unit_type u WHERE q.unit_type = u.id";
+    ];
+    rr:subjectMap [
+        rr:template "http://data.group1.com/ontology/IngredientQuantity/{recipe_id}-{ingredient}";
+        rr:class ont:IngredientQuantity;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:hasIngredientQuantity;
+        rr:objectMap [
+            rr:column "quantity";
+            rr:datatype xsd:double;
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:hasQuantityUnit;
+        rr:objectMap [
+            rr:column "unit";
+            rr:datatype xsd:string;
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:hasIngredient;
+        rr:objectMap [
+            rr:parentTriplesMap <#IngredientTriplesMap>;
+            rr:joinCondition [
+                rr:child "ingredient";
+                rr:parent "name";
+            ];
+        ];
+    ].
+
+<#RecipeStepTriplesMap>
+    rr:logicalTable [ rr:tableName "step" ];
+    rr:subjectMap [
+        rr:template "http://data.group1.com/ontology/RecipeStep/{recipe_id}-{order_number}";
+        rr:class ont:RecipeStep;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:hasOrderingNumber;
+        rr:objectMap [
+            rr:column "order_number";
+            rr:datatype xsd:integer;
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:hasStepDescription;
+        rr:objectMap [
+            rr:column "instruction";
+            rr:datatype xsd:string;
+        ];
+    ].
+
+<#RecipeTriplesMap>
+    rr:logicalTable [ rr:tableName "recipe" ];
+    rr:subjectMap [
+        rr:template "http://data.group1.com/ontology/Recipe/{id}";
+        rr:class ont:Recipe;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:hasStep;
+        rr:objectMap [
+            rr:parentTriplesMap <#RecipeStepTriplesMap>;
+            rr:joinCondition [
+                rr:child "id";
+                rr:parent "recipe_id";
+            ];
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:requiresQuantityOfIngredient;
+        rr:objectMap [
+            rr:parentTriplesMap <#IngredientQuantityTriplesMap>;
+            rr:joinCondition [
+                rr:child "id";
+                rr:parent "recipe_id";
+            ];
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:resultsIn;
+        rr:objectMap [
+            rr:parentTriplesMap <#FoodTriplesMap>;
+            rr:joinCondition [
+                rr:child "name";
+                rr:parent "name";
+            ];
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dc:creator;
+        rr:objectMap [
+            rr:column "account";
+            rr:datatype xsd:string;
+        ];
+    ].
+
+<#FoodTriplesMap>
+    rr:logicalTable [ rr:tableName "recipe" ];
+    rr:subjectMap [
+        rr:template "http://data.group1.com/ontology/Food/{name}";
+        rr:class ont:Food;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ont:hasFoodName;
+        rr:objectMap [
+            rr:column "name";
+            rr:datatype xsd:string;
+        ];
+    ].
