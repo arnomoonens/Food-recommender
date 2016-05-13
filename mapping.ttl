@@ -1,6 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
 
 @prefix ont: <http://www.food-groups.com/ontology#>.
 
