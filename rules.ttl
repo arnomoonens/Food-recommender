@@ -1,22 +1,13 @@
 PREFIX rule: <http://rule.stardog.com/> 
-[] a rule:SPARQLRule ; 
-   rule:content """ 
-     PREFIX :<http://www.food-groups.com/ontology#>
-     IF { 
-        ?x :requiresQuantityOfIngredient ?y.
-        ?y :hasIngredient ?z.
-     } 
-     THEN { 
-         ?x :recipeHasIngredient ?z.
-     }""" . 
+PREFIX ont: <http://www.food-groups.com/ontology#>   
 
 [] a rule:SPARQLRule ; 
-   rule:content """ 
-     PREFIX :<http://www.food-groups.com/ontology#>
+   rule:content " 
+     PREFIX ont: <http://www.food-groups.com/ontology#>   
      IF { 
-        ?x :resultsIn ?y. 
-        ?y :hasFoodName ?z.
+        ?recipe ont:requiresQuantityOfIngredient ?quantity.
+        ?quantity ont:hasIngredient ?ingredient.
      } 
      THEN { 
-         ?x :hasRecipeName ?z. 
-     }""" . 
+         ?recipe ont:recipeHasIngredient ?ingredient.
+     }". 
