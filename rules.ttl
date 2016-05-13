@@ -3,20 +3,20 @@ PREFIX rule: <http://rule.stardog.com/>
    rule:content """ 
      PREFIX :<http://www.food-groups.com/ontology#>
      IF { 
-        ?x :requiresQuantityOfIngredient ?y 
-        ?y :hasIngredient ?z
+        ?x :requiresQuantityOfIngredient ?y.
+        ?y :hasIngredient ?z.
      } 
      THEN { 
-         ?x :recipeHasIngredient ?z 
+         ?x :recipeHasIngredient ?z.
      }""" . 
 
 [] a rule:SPARQLRule ; 
    rule:content """ 
      PREFIX :<http://www.food-groups.com/ontology#>
      IF { 
-        ?x :resultsIn ?y 
-        ?y :hasFoodName ?z
+        ?x :resultsIn ?y. 
+        ?y :hasFoodName ?z.
      } 
      THEN { 
-         ?x :hasRecipeName ?z 
+         ?x :hasRecipeName ?z. 
      }""" . 
