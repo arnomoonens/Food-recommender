@@ -46,6 +46,14 @@ class Recommender(object):
 		scores.reverse()
 		return scores[:n]
 
+	# My suggestions for the recommender:
+	# [1] get some random recipes, assign each of them a score by doing a weighted average over the recipe's ingredients, where
+	#		x_i = i-th ingredient in the recipe
+	#		w_i = frequency of i-th ingredient in user-ingredient matrix
+	# [2] what you are currently doing: do correlations between users (pearson/euclidiean/...),
+	#		then get a random recipe from the highest scoring user (?)
+	# maybe experiment with both approaches, all the methods needed for these two approaches should be available now :)
+
 if __name__ == '__main__':
 	data = pd.read_csv('./export.csv')
 	recsys = Recommender()
