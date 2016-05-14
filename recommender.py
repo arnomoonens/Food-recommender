@@ -48,8 +48,14 @@ class Recommender(object):
         scores = np.zeros(num_recipes)
         for i in range(num_recipes):
             ingredient_row = recipe_ingredient.iloc[:, i]
+            # Need another for-loop since user_ingredient matrix contains
+            # all ingredients, while recipe_ingredient matrix contains
+            # only union of ingredients in these recipes. Otherwise, this
+            # would simply be:
+            # np.dot(ingredient_row, user_ingredient.loc[:,user])
             for ingredient, used in ingredient_row.iteritems():
                 scores[i] += used * user_ingredient.loc[ingredient, user]
+            scores[i] = scores[i] / np.sum(ingredient_row)
         recommend = recipes[np.argmax(scores)]
         while avoid_self:
             uploader = self.get_recipe_uploader(recommend)
@@ -84,7 +90,6 @@ class Recommender(object):
         scores.reverse()
         return scores[:n]
 
-    
     # [2] what you are currently doing: correlations between users
     #     (pearson/euclidiean/...), then get a random recipe from
     #      the highest scoring user (?)
