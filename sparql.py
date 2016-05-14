@@ -68,12 +68,13 @@ class FoodDatabase(object):
 					    		a ont:Recipe.
 					}""" % user
 		results = self.store.query(query)
-		return map(lambda r: r.recipe.toPython(),results)
+		results = map(lambda r: r.recipe.toPython(),results)
+		return list(results) #explicit list conversion
 
 if __name__ == '__main__':
 	#example usage
 	sparqldb = FoodDatabase(my_config)
-	results = sparqlstore.load_data()								# load all user-recipe data for the recommender matrix
+	#results = sparqlstore.load_data()								# load all user-recipe data for the recommender matrix
 	#results = sparqldb.load_recipes(3)  							# load a maximum of 3 random recipes and their ingredients
-	#results = sparqldb.load_user_recipes("noah.van.es@vub.ac.be") 	# load all recipes of a user
-	print(str(results))
+	results = sparqldb.load_user_recipes("noah.van.es@vub.ac.be") 	# load all recipes of a user
+	print(results)
