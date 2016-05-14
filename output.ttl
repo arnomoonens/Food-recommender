@@ -1,474 +1,278 @@
 
-<http://data.group1.com/ontology/Recipe/1> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "sander.lenaerts@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/2> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "arno.moonens@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/3> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "arno.moonens@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/4> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "arno.moonens@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/5> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "sander.lenaerts@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/6> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "jens.nevens@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/7> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "sander.lenaerts@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/8> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "noah.van.es@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/9> a <http://www.food-groups.com/ontology#Recipe> ;
-	<http://purl.org/dc/elements/1.1/creator> "noah.van.es@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/1-1> .
-
-<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/2-1> .
-
-<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/3-1> .
-
-<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/4-1> .
-
-<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/5-1> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-1> .
-
-<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/7-1> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-1> .
-
-<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/9-1> .
-
-<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/1-2> .
-
-<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/2-2> .
-
-<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/3-2> .
-
-<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/4-2> .
-
-<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/5-2> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-2> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-2> .
-
-<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/9-2> .
-
-<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/3-3> .
-
-<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/4-3> .
-
-<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/5-3> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-3> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-3> .
-
-<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/9-3> .
-
-<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/4-4> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-4> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-4> .
-
-<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/9-4> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-5> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-5> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-6> , <http://data.group1.com/ontology/RecipeStep/6-7> .
-
-<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/1-parsley> , <http://data.group1.com/ontology/IngredientQuantity/1-pollock> , <http://data.group1.com/ontology/IngredientQuantity/1-potato> .
-
-<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/2-basil> , <http://data.group1.com/ontology/IngredientQuantity/2-parmesan%20cheese> , <http://data.group1.com/ontology/IngredientQuantity/2-pine%20nuts> .
-
-<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/3-brussels%20sprouts> .
-
-<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/5-minced%20pork> , <http://data.group1.com/ontology/IngredientQuantity/5-oregano> , <http://data.group1.com/ontology/IngredientQuantity/5-parsley> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-almond%20flakes> , <http://data.group1.com/ontology/IngredientQuantity/6-almond%20powder> , <http://data.group1.com/ontology/IngredientQuantity/6-buckwheat%20flour> , <http://data.group1.com/ontology/IngredientQuantity/6-grapes> .
-
-<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/7-blueberrie> , <http://data.group1.com/ontology/IngredientQuantity/7-yogurt> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-chicken%20breast> .
-
-<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/1-olive%20oil> .
-
-<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/2-olive%20oil> .
-
-<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/3-black%20pepper> , <http://data.group1.com/ontology/IngredientQuantity/3-kosher%20salt> , <http://data.group1.com/ontology/IngredientQuantity/3-olive%20oil> .
-
-<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/4-brown%20sugar> , <http://data.group1.com/ontology/IngredientQuantity/4-chile%20powder> , <http://data.group1.com/ontology/IngredientQuantity/4-garlic%20powder> , <http://data.group1.com/ontology/IngredientQuantity/4-onion%20powder> , <http://data.group1.com/ontology/IngredientQuantity/4-salt> .
-
-<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/5-parmesan%20cheese> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-milk> .
-
-<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/7-milk> , <http://data.group1.com/ontology/IngredientQuantity/7-oat> , <http://data.group1.com/ontology/IngredientQuantity/7-pumpkin%20seed> .
-
-<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/1-garlic> , <http://data.group1.com/ontology/IngredientQuantity/1-lemon> , <http://data.group1.com/ontology/IngredientQuantity/1-onion> , <http://data.group1.com/ontology/IngredientQuantity/1-oregano> , <http://data.group1.com/ontology/IngredientQuantity/1-tomato> .
-
-<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/2-lemon> .
-
-<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/4-pork%20tenderloin> .
-
-<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/5-egg> , <http://data.group1.com/ontology/IngredientQuantity/5-garlic> , <http://data.group1.com/ontology/IngredientQuantity/5-onion> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-banana> , <http://data.group1.com/ontology/IngredientQuantity/6-egg> .
-
-<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/7-pear> .
-
-<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/9-egg> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-chicken%20broth> , <http://data.group1.com/ontology/IngredientQuantity/8-heavy%20cream> , <http://data.group1.com/ontology/IngredientQuantity/8-sun-dried%20tomato> .
-
-<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/9-butter> , <http://data.group1.com/ontology/IngredientQuantity/9-cocoa%20powder> , <http://data.group1.com/ontology/IngredientQuantity/9-flour> , <http://data.group1.com/ontology/IngredientQuantity/9-sugar> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-fettuccini%20pasta> .
-
-<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/2-garlic> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-garlic> .
-
-<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/5-prosciutto> , <http://data.group1.com/ontology/IngredientQuantity/5-white%20bread> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-olive%20oil> , <http://data.group1.com/ontology/IngredientQuantity/6-salt> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-pepper> , <http://data.group1.com/ontology/IngredientQuantity/8-salt> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-pear%20syrup> , <http://data.group1.com/ontology/IngredientQuantity/6-sour%20cream> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-basil> , <http://data.group1.com/ontology/IngredientQuantity/8-butter> , <http://data.group1.com/ontology/IngredientQuantity/8-vegetable%20oil> .
-
-<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/9-salt> , <http://data.group1.com/ontology/IngredientQuantity/9-vanilla%20extract> .
-
-<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Roast%20fish> .
-
-<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Pesto> .
-
-<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Roasted%20Brussels%20sprouts> .
-
-<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Crusted%20pork%20tenderloins> .
-
-<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Meatloaf> .
-
-<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Pancakes> .
-
-<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Pear%20%26%20blueberry%20breakfast%20bow> .
-
-<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Chicken%20Milano> .
-
-<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Brownies> .
-
-<http://data.group1.com/ontology/Food/Roast%20fish> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Roast fish"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Food/Pesto> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Pesto"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Food/Roasted%20Brussels%20sprouts> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Roasted Brussels sprouts"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Food/Crusted%20pork%20tenderloins> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Crusted pork tenderloins"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Food/Meatloaf> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Meatloaf"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Food/Pancakes> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Pancakes"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Food/Pear%20%26%20blueberry%20breakfast%20bow> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Pear & blueberry breakfast bow"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Food/Chicken%20Milano> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Chicken Milano"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://data.group1.com/ontology/Food/Brownies> a <http://www.food-groups.com/ontology#Food> ;
-	<http://www.food-groups.com/ontology#hasFoodName> "Brownies"^^<http://www.w3.org/2001/XMLSchema#string> .
-
 <http://data.group1.com/ontology/IngredientQuantity/1-parsley> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.01E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.01E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-pollock> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.2E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.2E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-potato> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.4E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.4E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/2-basil> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.06E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.06E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/2-parmesan%20cheese> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.08E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.08E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/2-pine%20nuts> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.06E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.06E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/3-brussels%20sprouts> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.68E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.68E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-minced%20pork> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.5E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.5E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-oregano> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.05E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.05E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-parsley> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.03E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.03E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-almond%20flakes> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.04E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.04E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-almond%20powder> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.1E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.1E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-buckwheat%20flour> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.1E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.1E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-grapes> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.2E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.2E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/7-blueberrie> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.05E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.05E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/7-yogurt> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.15E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.15E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-chicken%20breast> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.45E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.45E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "kilogram"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-olive%20oil> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.03E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.03E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/2-olive%20oil> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.15E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.15E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/3-black%20pepper> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0025E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0025E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/3-kosher%20salt> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0049E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0049E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/3-olive%20oil> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.044E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.044E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/4-brown%20sugar> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.059E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.059E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/4-chile%20powder> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.044E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.044E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/4-garlic%20powder> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0049E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0049E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/4-onion%20powder> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0049E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0049E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/4-salt> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0025E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.0025E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-parmesan%20cheese> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.06E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.06E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-milk> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.15E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.15E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/7-milk> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.045E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.045E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/7-oat> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.03E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.03E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/7-pumpkin%20seed> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.015E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.015E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "litre"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-garlic> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-lemon> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.3E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.3E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-onion> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-oregano> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.5E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.5E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-tomato> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/2-lemon> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.5E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.5E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/4-pork%20tenderloin> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-egg> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-garlic> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-onion> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-banana> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-egg> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "4.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "4.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/7-pear> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/9-egg> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "4.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "4.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "unit"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-chicken%20broth> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "cup"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-heavy%20cream> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "cup"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-sun-dried%20tomato> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.5E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "0.5E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "cup"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/9-butter> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "cup"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/9-cocoa%20powder> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "cup"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/9-flour> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.5E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.5E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "cup"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/9-sugar> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "3.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "3.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "cup"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-fettuccini%20pasta> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "8.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "8.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "ounce"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/2-garlic> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "clove"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-garlic> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "clove"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-prosciutto> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "8.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "8.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "slice"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/5-white%20bread> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "slice"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-olive%20oil> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "pinch"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-salt> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "pinch"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-pepper> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "pinch"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-salt> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "pinch"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-pear%20syrup> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "splash"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/6-sour%20cream> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "4.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "4.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "splash"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-basil> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "spoon"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-butter> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "spoon"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/8-vegetable%20oil> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "2.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "spoon"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/9-salt> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "spoon"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/9-vanilla%20extract> a <http://www.food-groups.com/ontology#IngredientQuantity> ;
-	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.food-groups.com/ontology#hasIngredientQuantity> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<http://www.food-groups.com/ontology#hasQuantityUnit> "spoon"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.group1.com/ontology/IngredientQuantity/1-parsley> <http://www.food-groups.com/ontology#hasIngredient> <http://data.group1.com/ontology/Ingredient/parsley> .
@@ -759,126 +563,322 @@
 <http://data.group1.com/ontology/Ingredient/yogurt> a <http://www.food-groups.com/ontology#Ingredient> ;
 	<http://www.food-groups.com/ontology#hasIngredientName> "yogurt"^^<http://www.w3.org/2001/XMLSchema#string> .
 
+<http://data.group1.com/ontology/Food/Roast%20fish> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Roast fish"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Food/Pesto> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Pesto"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Food/Roasted%20Brussels%20sprouts> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Roasted Brussels sprouts"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Food/Crusted%20pork%20tenderloins> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Crusted pork tenderloins"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Food/Meatloaf> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Meatloaf"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Food/Pancakes> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Pancakes"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Food/Pear%20%26%20blueberry%20breakfast%20bow> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Pear & blueberry breakfast bow"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Food/Chicken%20Milano> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Chicken Milano"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Food/Brownies> a <http://www.food-groups.com/ontology#Food> ;
+	<http://www.food-groups.com/ontology#hasFoodName> "Brownies"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/1> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "sander.lenaerts@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/2> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "arno.moonens@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/3> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "arno.moonens@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/4> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "arno.moonens@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/5> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "sander.lenaerts@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/6> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "jens.nevens@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/7> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "sander.lenaerts@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/8> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "noah.van.es@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/9> a <http://www.food-groups.com/ontology#Recipe> ;
+	<http://purl.org/dc/elements/1.1/creator> "noah.van.es@vub.ac.be"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/1-1> .
+
+<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/2-1> .
+
+<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/3-1> .
+
+<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/4-1> .
+
+<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/5-1> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-1> .
+
+<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/7-1> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-1> .
+
+<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/9-1> .
+
+<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/1-2> .
+
+<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/2-2> .
+
+<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/3-2> .
+
+<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/4-2> .
+
+<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/5-2> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-2> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-2> .
+
+<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/9-2> .
+
+<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/3-3> .
+
+<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/4-3> .
+
+<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/5-3> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-3> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-3> .
+
+<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/9-3> .
+
+<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/4-4> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-4> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-4> .
+
+<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/9-4> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-5> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/8-5> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#hasStep> <http://data.group1.com/ontology/RecipeStep/6-6> , <http://data.group1.com/ontology/RecipeStep/6-7> .
+
+<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Roast%20fish> .
+
+<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Pesto> .
+
+<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Roasted%20Brussels%20sprouts> .
+
+<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Crusted%20pork%20tenderloins> .
+
+<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Meatloaf> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Pancakes> .
+
+<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Pear%20%26%20blueberry%20breakfast%20bow> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Chicken%20Milano> .
+
+<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#resultsIn> <http://data.group1.com/ontology/Food/Brownies> .
+
+<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/1-parsley> , <http://data.group1.com/ontology/IngredientQuantity/1-pollock> , <http://data.group1.com/ontology/IngredientQuantity/1-potato> .
+
+<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/2-basil> , <http://data.group1.com/ontology/IngredientQuantity/2-parmesan%20cheese> , <http://data.group1.com/ontology/IngredientQuantity/2-pine%20nuts> .
+
+<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/3-brussels%20sprouts> .
+
+<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/5-minced%20pork> , <http://data.group1.com/ontology/IngredientQuantity/5-oregano> , <http://data.group1.com/ontology/IngredientQuantity/5-parsley> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-almond%20flakes> , <http://data.group1.com/ontology/IngredientQuantity/6-almond%20powder> , <http://data.group1.com/ontology/IngredientQuantity/6-buckwheat%20flour> , <http://data.group1.com/ontology/IngredientQuantity/6-grapes> .
+
+<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/7-blueberrie> , <http://data.group1.com/ontology/IngredientQuantity/7-yogurt> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-chicken%20breast> .
+
+<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/1-olive%20oil> .
+
+<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/2-olive%20oil> .
+
+<http://data.group1.com/ontology/Recipe/3> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/3-black%20pepper> , <http://data.group1.com/ontology/IngredientQuantity/3-kosher%20salt> , <http://data.group1.com/ontology/IngredientQuantity/3-olive%20oil> .
+
+<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/4-brown%20sugar> , <http://data.group1.com/ontology/IngredientQuantity/4-chile%20powder> , <http://data.group1.com/ontology/IngredientQuantity/4-garlic%20powder> , <http://data.group1.com/ontology/IngredientQuantity/4-onion%20powder> , <http://data.group1.com/ontology/IngredientQuantity/4-salt> .
+
+<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/5-parmesan%20cheese> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-milk> .
+
+<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/7-milk> , <http://data.group1.com/ontology/IngredientQuantity/7-oat> , <http://data.group1.com/ontology/IngredientQuantity/7-pumpkin%20seed> .
+
+<http://data.group1.com/ontology/Recipe/1> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/1-garlic> , <http://data.group1.com/ontology/IngredientQuantity/1-lemon> , <http://data.group1.com/ontology/IngredientQuantity/1-onion> , <http://data.group1.com/ontology/IngredientQuantity/1-oregano> , <http://data.group1.com/ontology/IngredientQuantity/1-tomato> .
+
+<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/2-lemon> .
+
+<http://data.group1.com/ontology/Recipe/4> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/4-pork%20tenderloin> .
+
+<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/5-egg> , <http://data.group1.com/ontology/IngredientQuantity/5-garlic> , <http://data.group1.com/ontology/IngredientQuantity/5-onion> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-banana> , <http://data.group1.com/ontology/IngredientQuantity/6-egg> .
+
+<http://data.group1.com/ontology/Recipe/7> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/7-pear> .
+
+<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/9-egg> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-chicken%20broth> , <http://data.group1.com/ontology/IngredientQuantity/8-heavy%20cream> , <http://data.group1.com/ontology/IngredientQuantity/8-sun-dried%20tomato> .
+
+<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/9-butter> , <http://data.group1.com/ontology/IngredientQuantity/9-cocoa%20powder> , <http://data.group1.com/ontology/IngredientQuantity/9-flour> , <http://data.group1.com/ontology/IngredientQuantity/9-sugar> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-fettuccini%20pasta> .
+
+<http://data.group1.com/ontology/Recipe/2> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/2-garlic> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-garlic> .
+
+<http://data.group1.com/ontology/Recipe/5> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/5-prosciutto> , <http://data.group1.com/ontology/IngredientQuantity/5-white%20bread> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-olive%20oil> , <http://data.group1.com/ontology/IngredientQuantity/6-salt> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-pepper> , <http://data.group1.com/ontology/IngredientQuantity/8-salt> .
+
+<http://data.group1.com/ontology/Recipe/6> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/6-pear%20syrup> , <http://data.group1.com/ontology/IngredientQuantity/6-sour%20cream> .
+
+<http://data.group1.com/ontology/Recipe/8> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/8-basil> , <http://data.group1.com/ontology/IngredientQuantity/8-butter> , <http://data.group1.com/ontology/IngredientQuantity/8-vegetable%20oil> .
+
+<http://data.group1.com/ontology/Recipe/9> <http://www.food-groups.com/ontology#requiresQuantityOfIngredient> <http://data.group1.com/ontology/IngredientQuantity/9-salt> , <http://data.group1.com/ontology/IngredientQuantity/9-vanilla%20extract> .
+
 <http://data.group1.com/ontology/RecipeStep/1-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Heat oven to 200C/180C fan/gas 6. Tip the potatoes, onion, garlic, oregano and olive oil into a roasting tin, season, then mix together with your hands to coat everything in the oil. Roast for 15 mins"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Heat oven to 200C/180C fan/gas 6. Tip the potatoes, onion, garlic, oregano and olive oil into a roasting tin, season, then mix together with your hands to coat everything in the oil. Roast for 15 mins"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/2-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Mix the parmesan cheese, basil, garlic and pine nuts together using some olive oil."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Mix the parmesan cheese, basil, garlic and pine nuts together using some olive oil."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/3-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Preheat oven to 400 degrees F (205 degrees C)."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Preheat oven to 400 degrees F (205 degrees C)."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/4-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Preheat grill for medium-high heat."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Preheat grill for medium-high heat."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/5-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Heat the oven to 190C/fan 170C/gas 5. Put bread in processor and blitz to make crumbs, then tip into a bowl with the pork. Tip the onion, garlic and herbs into the food processor and process until fin"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Heat the oven to 190C/fan 170C/gas 5. Put bread in processor and blitz to make crumbs, then tip into a bowl with the pork. Tip the onion, garlic and herbs into the food processor and process until fin"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/6-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Heat a small pan and grill the almond flakes."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Heat a small pan and grill the almond flakes."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/7-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Grate the pear into a bowl and add the oats, half the yogurt, the milk and most of the seeds. Leave for 5-10 mins, then check the consistency and dilute with a little more milk or water if it is too t"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Grate the pear into a bowl and add the oats, half the yogurt, the milk and most of the seeds. Leave for 5-10 mins, then check the consistency and dilute with a little more milk or water if it is too t"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/8-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "In a large saucepan over low heat, melt butter; add garlic and cook for 30 seconds. Add the tomatoes and 3/4 cup of the chicken broth; increase to medium heat and bring to a boil"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "In a large saucepan over low heat, melt butter; add garlic and cook for 30 seconds. Add the tomatoes and 3/4 cup of the chicken broth; increase to medium heat and bring to a boil"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/9-1> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x13 baking dish."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x13 baking dish."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/1-2> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Add the lemon and tomatoes, and roast for 10 mins, then top with the fish fillets and cook for 10 mins more. Serve with parsley scattered over."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Add the lemon and tomatoes, and roast for 10 mins, then top with the fish fillets and cook for 10 mins more. Serve with parsley scattered over."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/2-2> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Add lemon, salt and pepper according to your taste and mix again."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Add lemon, salt and pepper according to your taste and mix again."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/3-2> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Place trimmed Brussels sprouts, olive oil, kosher salt, and pepper in a large resealable plastic bag. Seal tightly, and shake to coat. Pour onto a baking sheet, and place on center oven rack."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Place trimmed Brussels sprouts, olive oil, kosher salt, and pepper in a large resealable plastic bag. Seal tightly, and shake to coat. Pour onto a baking sheet, and place on center oven rack."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/4-2> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Place the onion powder, garlic powder, chipotle chile powder, salt, brown sugar and tenderloins in a plastic resealable bag and shake, coating meat evenly."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Place the onion powder, garlic powder, chipotle chile powder, salt, brown sugar and tenderloins in a plastic resealable bag and shake, coating meat evenly."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/5-2> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Use the rest of the prosciutto to line a 1.5 litre loaf tin. Spoon in the meatloaf mix and press down well. Flip the overhanging prosciutto over the top, then put the loaf tin into a roasting tray. Po"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Use the rest of the prosciutto to line a 1.5 litre loaf tin. Spoon in the meatloaf mix and press down well. Flip the overhanging prosciutto over the top, then put the loaf tin into a roasting tray. Po"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/6-2> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Mi6 the eggs with the milk in a blender."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Mi6 the eggs with the milk in a blender."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/8-2> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Sprinkle the chicken with salt and pepper on both sides. In a large skillet over medium heat, warm oil and saute chicken. Cook for about 4 minutes"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Sprinkle the chicken with salt and pepper on both sides. In a large skillet over medium heat, warm oil and saute chicken. Cook for about 4 minutes"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/9-2> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Combine the melted butter, sugar, and vanilla in a large bowl. Beat in the eggs, one at a time, mixing well after each, until thoroughly blended."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Combine the melted butter, sugar, and vanilla in a large bowl. Beat in the eggs, one at a time, mixing well after each, until thoroughly blended."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/3-3> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Roast in the preheated oven for 30 to 45 minutes, shaking pan every 5 to 7 minutes for even browning. Reduce heat when necessary to prevent burning. Adjust seasoning with kosher salt, if necessary."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Roast in the preheated oven for 30 to 45 minutes, shaking pan every 5 to 7 minutes for even browning. Reduce heat when necessary to prevent burning. Adjust seasoning with kosher salt, if necessary."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/4-3> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Refrigerate the bag for 10 to 15 minutes."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Refrigerate the bag for 10 to 15 minutes."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/5-3> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Cool in the tin for 10 mins, then drain off any excess liquid and turn out onto a board. Cut into thick slices and serve warm or cold with salad."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Cool in the tin for 10 mins, then drain off any excess liquid and turn out onto a board. Cut into thick slices and serve warm or cold with salad."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/6-3> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Add almond powder, buckwheat flour and salt and mi6 until smooth."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Add almond powder, buckwheat flour and salt and mi6 until smooth."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/8-3> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "In the same skillet, over medium heat, bring 1/4 cup chicken broth to a boil; stirring the pan juices. Reduce slightly and add to the cream sauce; stir in basil and adjust seasonings to taste."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "In the same skillet, over medium heat, bring 1/4 cup chicken broth to a boil; stirring the pan juices. Reduce slightly and add to the cream sauce; stir in basil and adjust seasonings to taste."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/9-3> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Sift the flour, cocoa powder, and salt in a bowl. Gradually stir flour mixture into the egg mixture until blended."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Sift the flour, cocoa powder, and salt in a bowl. Gradually stir flour mixture into the egg mixture until blended."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/4-4> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Lightly oil grill grate, and arrange meat on grate. Cook for 20 minutes, turning meat every 5 minutes. Remove from grill, let stand for 5 to 10 minutes before slicing."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Lightly oil grill grate, and arrange meat on grate. Cook for 20 minutes, turning meat every 5 minutes. Remove from grill, let stand for 5 to 10 minutes before slicing."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/6-4> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Heat the oil in a pan and pour in the batter. Lower the heat and bake the pancake until the top is set. Turn around and let the other side bake."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Heat the oil in a pan and pour in the batter. Lower the heat and bake the pancake until the top is set. Turn around and let the other side bake."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/8-4> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Meanwhile, bring a large pot of lightly salted water to a boil. Add fettuccine and cook for 8 to 10 minutes; transfer to a bowl and toss with 3 to 4 tablespoons of the sauce"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Meanwhile, bring a large pot of lightly salted water to a boil. Add fettuccine and cook for 8 to 10 minutes; transfer to a bowl and toss with 3 to 4 tablespoons of the sauce"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/9-4> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Bake in preheated oven until an inserted toothpick comes out clean, 35 to 40 minutes. Remove, and cool pan on wire rack before cutting."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Bake in preheated oven until an inserted toothpick comes out clean, 35 to 40 minutes. Remove, and cool pan on wire rack before cutting."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/6-5> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "5"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Peal the banana and slice. Bisect the grapes and remove the seeds."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Peal the banana and slice. Bisect the grapes and remove the seeds."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/8-5> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "5"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Cut each chicken breast into 2 to 3 diagonal slices. Reheat the sauce gently if needed. Transfer the pasta to serving plates; top with chicken and coat with the cream sauce; serve."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Cut each chicken breast into 2 to 3 diagonal slices. Reheat the sauce gently if needed. Transfer the pasta to serving plates; top with chicken and coat with the cream sauce; serve."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/6-6> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "6"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "Serve the pancakes with banana, grapes, almond flakes and sour cream."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "Serve the pancakes with banana, grapes, almond flakes and sour cream."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
 <http://data.group1.com/ontology/RecipeStep/6-7> a <http://www.food-groups.com/ontology#RecipeStep> ;
-	<http://www.food-groups.com/ontology#hasOrderingNumber> "7"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://www.food-groups.com/ontology#hasStepDescription> "If you want, you can put pear syrup on the pancake as well."^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://www.food-groups.com/ontology#hasStepDescription> "If you want, you can put pear syrup on the pancake as well."^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://www.food-groups.com/ontology#hasOrderingNumber> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .

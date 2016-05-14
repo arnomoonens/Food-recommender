@@ -30,7 +30,7 @@
         rr:predicate ont:hasIngredientQuantity;
         rr:objectMap [
             rr:column "quantity";
-            rr:datatype xsd:double;
+            rr:datatype xsd:float;
         ];
     ];
     rr:predicateObjectMap [
