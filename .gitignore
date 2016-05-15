@@ -62,3 +62,6 @@ target/
 .ipynb_checkpoints
 
 config.py
+
+# added by GitSavvy
+/config.py~

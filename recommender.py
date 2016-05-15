@@ -98,10 +98,10 @@ class Recommender(object):
 
 if __name__ == '__main__':
     stardog = {
-        'endpoint': STARDOG_ENDPOINT,
+        'endpoint': STARDOG_GROUP1_ENDPOINT,
         'username': STARDOG_USERNAME,
         'password': STARDOG_PASSWORD
-        }
+    }
     foodDB = FoodDatabase(stardog)
     recsys = Recommender(foodDB)
     recsys.best_matches('jens.nevens@vub.ac.be')
