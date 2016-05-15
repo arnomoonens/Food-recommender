@@ -79,7 +79,7 @@ def insert_recipe_data(food_name, recipe_id, creator, steps, ingredients):
         ng.add((ingredient_uri, ONT.hasIngredientName, Literal(ingredient['name'], datatype=XSD.string)))
         recipe_ingredient_uri = URIRef('http://data.group1.com/ontology/IngredientQuantity/%i-%s' % (recipe_id, quote(ingredient['name'])))
         ng.add((recipe_ingredient_uri, RDF.type, ONT.IngredientQuantity))
-        unit = unit_mapping[ingredient['unit']] if ingredient['unit'] in unit_mapping else unit
+        unit = unit_mapping[ingredient['unit']] if ingredient['unit'] in unit_mapping else ingredient['unit']
         ng.add((recipe_ingredient_uri, ONT.hasIngredientQuantity, Literal(ingredient['quantity'], datatype=XSD.float)))
         ng.add((recipe_ingredient_uri, ONT.hasQuantityUnit, Literal(unit, datatype=XSD.string)))
         ng.add((recipe_uri, ONT.requiresQuantityOfIngredient, recipe_ingredient_uri))
