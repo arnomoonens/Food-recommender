@@ -47,7 +47,8 @@ class FoodDatabase(object):
                       } ORDER BY RAND() LIMIT %d
                     }
                     ?recipe ont:requiresQuantityOfIngredient/ont:hasIngredient ?ingredient.
-                }""" % limit
+                }
+                """ % limit
         recipe_dct = {}
         for result in self.store.query(query):
             recipe = result.recipe.toPython()

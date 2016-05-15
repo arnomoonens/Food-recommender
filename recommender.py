@@ -126,5 +126,5 @@ if __name__ == '__main__':
     }
     foodDB = FoodDatabase(stardog)
     recsys = Recommender(foodDB)
-    # recsys.best_matches('jens.nevens@vub.ac.be')
-    print(recsys.best_ingredients('jens.nevens@vub.ac.be'))
+    recsys.best_matches('arno.moonens@vub.ac.be')
+    # print(recsys.best_ingredients('jens.nevens@vub.ac.be'))

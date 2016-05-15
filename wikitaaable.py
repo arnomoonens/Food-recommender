@@ -36,6 +36,7 @@ ONT = Namespace('http://www.food-groups.com/ontology#')
 default_graph = URIRef('http://www.food-groups.com/ontology/wiki')
 ng = Graph(group1_store, identifier=default_graph)
 
+
 def get_wiki_recipe(recipe_id):
     recipe_name = next(wiki_store.query(wiki_recipe % recipe_id).__iter__()).label.toPython()
     steps = []
@@ -58,6 +59,7 @@ unit_mapping = {
     'pt': 'pint',
     'qt': 'quart'
 }
+
 
 def insert_recipe_data(food_name, recipe_id, creator, steps, ingredients):
     food_uri = URIRef('http://data.group1.com/ontology/Food/%s' % quote(food_name))
@@ -91,7 +93,12 @@ wiki_store.bind('wiki', wiki_namespace)
 
 if __name__ == '__main__':
     if len(sys.argv) < 4:
-        print('Please provide parameters: [1] recipe name on wikitaaable, [2] unique recipe id, [3] creator email address')
+        print("""
+              Please provide parameters:
+              [1] recipe name on wikitaaable,
+              [2] unique recipe id,
+              [3] creator email address
+              """)
     else:
         name, steps, ingredients = get_wiki_recipe(sys.argv[1])
         insert_recipe_data(name, int(sys.argv[2]), sys.argv[3], steps, ingredients)

@@ -1,6 +1,6 @@
 # Name of a recipe
 wiki_recipe = """
-select ?label WHERE {
+SELECT ?label WHERE {
   { wiki:%s rdfs:label ?label }
 }
 """
