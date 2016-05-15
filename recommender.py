@@ -38,8 +38,8 @@ class Recommender(object):
     # w_i is the frequency of the ith ingredient in the user-ingredient matrix
     # The user gets the recipe with the highest score, since this recipe
     # has the most ingredients already used by the user.
-    # Maybe include a check so that a user does not get recommended
-    # it's own recipe?
+    # When avoid_self is set to True, no recipes uploaded by the given user
+    # will be recommended to that same user.
     def best_matches(self, user, avoid_self=True):
         recipe_ingredient = self.get_recipe_ingredient_matrix(3)
         user_ingredient = self.get_user_ingredient_matrix()
@@ -52,7 +52,7 @@ class Recommender(object):
             # all ingredients, while recipe_ingredient matrix contains
             # only union of ingredients in these recipes. Otherwise, this
             # would simply be:
-            # np.dot(ingredient_row, user_ingredient.loc[:,user])
+            # scores[i] = np.dot(ingredient_row, user_ingredient.loc[:,user])
             for ingredient, used in ingredient_row.iteritems():
                 scores[i] += used * user_ingredient.loc[ingredient, user]
             scores[i] = scores[i] / np.sum(ingredient_row)
@@ -70,31 +70,53 @@ class Recommender(object):
         return
 
     # Returns the Euclidian distance between two users
-    def euclidian(self, user1, user2):
-        return euclidean(self.user_matrix.loc[:, user1],
-                         self.user_matrix.loc[:, user2])
+    def euclidian(self, matrix, user1, user2):
+        return euclidean(matrix.loc[:, user1], matrix.loc[:, user2])
 
     # Returns the Pearson correlation coefficient between two users
-    def pearson(self, user1, user2):
-        return pearsonr(self.user_matrix.loc[:, user1],
-                        self.user_matrix.loc[:, user2])[0]
+    def pearson(self, matrix, user1, user2):
+        return pearsonr(matrix.loc[:, user1], matrix.loc[:, user2])[0]
 
-    # Returns the most similar user for the given user from the matrix
-    # Number of the results and similarity function are optional parameters
-    def similar_users(self, user, n=5, similarity='pearson'):
-        if similarity == 'pearson':
-            scores = [(self.pearson(user, other), other) for other in self.user_matrix.columns.values if other != user]
-        elif similarity == 'euclidean':
-            scores = [(self.euclidean(user, other), other) for other in self.user_matrix.columns.values if other != user]
-        scores.sort()
-        scores.reverse()
-        return scores[:n]
-
-    # [2] what you are currently doing: correlations between users
-    #     (pearson/euclidiean/...), then get a random recipe from
-    #      the highest scoring user (?)
-    # maybe experiment with both approaches,
-    # all the methods needed for these two approaches should be available now
+    # Get (ingredient) recommendations for a user by using a weighted average
+    # of every other user's usage frequency.
+    # Next step is finding recipes with the most highly recommended
+    # ingredients. This can again be done using a weighted average.
+    def best_ingredients(self, user, similarity='pearson'):
+        user_ingredient = self.get_user_ingredient_matrix()
+        totals = {}
+        sim_sums = {}
+        # It calculates how similar the persons are to the specified user
+        # and afterwards looks at each ingredient used by those other users.
+        # As result you have a classified ingredient list and
+        # an estimated rating that 'user' would give for each ingredient in it.
+        for person in user_ingredient.columns.values:
+            # Don't compare me to myself
+            if user == person:
+                continue
+            if similarity == 'pearson':
+                sim = self.pearson(user_ingredient, user, person)
+            elif similarity == 'euclidian':
+                sim = self.euclidian(user_ingredient, user, person)
+            # Ignore scores of zero or lower
+            # if sim <= 0:
+            #     continue
+            for ingr, val in user_ingredient.loc[:, person].iteritems():
+                if user_ingredient.loc[ingr, user] == 0:
+                    if ingr in totals:
+                        totals[ingr] += user_ingredient.loc[ingr, person] * sim
+                    else:
+                        totals[ingr] = user_ingredient.loc[ingr, person] * sim
+                    if ingr in sim_sums:
+                        sim_sums[ingr] += sim
+                    else:
+                        sim_sums[ingr] = sim
+        # Create the normalized list
+        rankings = [(total/sim_sums[item], item)
+                    for item, total in totals.items()]
+        # Return the sorted list
+        rankings.sort()
+        rankings.reverse()
+        return rankings
 
 if __name__ == '__main__':
     stardog = {
@@ -104,4 +126,5 @@ if __name__ == '__main__':
     }
     foodDB = FoodDatabase(stardog)
     recsys = Recommender(foodDB)
-    recsys.best_matches('jens.nevens@vub.ac.be')
+    # recsys.best_matches('jens.nevens@vub.ac.be')
+    print(recsys.best_ingredients('jens.nevens@vub.ac.be'))
