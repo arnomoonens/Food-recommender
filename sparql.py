@@ -92,11 +92,3 @@ class FoodDatabase(object):
         results = self.store.query(query)
         results = map(lambda r: r.uploader.toPython(), results)
         return list(results)[0]  # Assumption: Recipe has only 1 uploader
-
-
-# if __name__ == '__main__':
-#     stardog = {
-#         'endpoint': STARDOG_ENDPOINT,
-#         'username': STARDOG_USERNAME,
-#         'password': STARDOG_PASSWORD
-#         }
