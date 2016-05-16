@@ -71,7 +71,7 @@ class Recommender(object):
                     else:
                         sim_sums[ingr] = sim
         # Create the normalized list
-        rankings = [(total/sim_sums[item], item) for item, total in totals.items()]
+        rankings = [(total / sim_sums[item], item) for item, total in totals.items()]
         rankings.sort()
         rankings.reverse()
         return rankings[:n]
